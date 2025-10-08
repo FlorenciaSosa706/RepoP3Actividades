@@ -14,7 +14,6 @@ public class Main2 {
         red.conectarAmigos(0, 2);
         red.conectarAmigos(1, 3);
         red.conectarAmigos(2, 4);
-
         red.recorridoDFS(0);
         System.out.println();
         red.recorridoBFS(0);
