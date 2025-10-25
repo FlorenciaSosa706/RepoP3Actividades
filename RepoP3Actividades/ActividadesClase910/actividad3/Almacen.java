@@ -1,15 +1,15 @@
-package RepoP3Actividades.ActividadesClase910;
+package RepoP3Actividades.ActividadesClase910.actividad3;
 
 public class Almacen {
-    private final int id;
-    private final String nombre;
+    private String id;
+    private String nombre;
 
-    public Almacen(int id, String nombre) {
+    public Almacen(String id, String nombre) {
         this.id = id;
         this.nombre = nombre;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 

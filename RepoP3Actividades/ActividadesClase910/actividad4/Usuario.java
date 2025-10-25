@@ -1,15 +1,17 @@
-package RepoP3Actividades.ActividadesClase910;
+
+package RepoP3Actividades.ActividadesClase910.actividad4;
+
 
 public class Usuario {
-    private final int id;
-    private final String nombre;
+    private String id;
+    private String nombre;
 
-    public Usuario(int id, String nombre) {
+    public Usuario(String id, String nombre) {
         this.id = id;
         this.nombre = nombre;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -22,4 +24,3 @@ public class Usuario {
         return nombre + " (ID: " + id + ")";
     }
 }
-
